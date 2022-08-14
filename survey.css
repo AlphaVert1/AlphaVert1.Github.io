@@ -44,9 +44,8 @@ h3 {
 }
 
 .komori {
-  width: 375px;
   border-radius: 15%;
-  max-width: 500px;
+  width: 350px;
   max-height: 300px;
   /* box-shadow: 3px 3px grey; */
   padding: 10px 20px 10px 20px;
@@ -125,12 +124,17 @@ section {
   height: 50px;
   width: 100%;
   display: inlinel;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
 }
 
 .navbarz {
-  padding: 5px 12px 5px 12px;
-  font-size: 25px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 1.2rem;
   font-family: "black ops one", cursive;
+  text-align: center;
 }
 
 .sentries {
@@ -149,4 +153,14 @@ section {
   max-height: 300px;
   /* box-shadow: 3px 3px grey; */
   padding: 10px 20px 10px 20px;
+}
+
+.represent {
+  text-align: center;
+  font-family: "black ops one", cursive;
+  font-size: 30px;
+}
+
+.spnsr {
+  margin-left: 10%;
 }
