@@ -1,0 +1,26 @@
+.auc-cont {
+  text-align: center;
+  font-family: "black ops one";
+  font-size: 3rem;
+  padding-top: 0.3rem;
+}
+
+.gladpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  border-radius: 20%;
+  padding: 10px 10px 10px 10px;
+}
+
+.navbarz {
+  color: orange;
+}
+
+.bttn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2rem;
+}
