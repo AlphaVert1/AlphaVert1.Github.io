@@ -7,11 +7,10 @@
 
 .gladpic {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 35%;
   border-radius: 20%;
   padding: 10px 10px 10px 10px;
+  float: left;
 }
 
 .navbarz {
@@ -23,4 +22,25 @@
   margin-left: auto;
   margin-right: auto;
   font-size: 1.2rem;
+  width: 60px;
+  border-radius: 20%;
+  padding: 10px 10px 10px 10px;
+}
+
+input.bid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2rem;
+  width: 120px;
+  border-radius: 10%;
+  padding: 10px 10px 10px 10px;
+}
+
+.soap {
+  display: block;
+  width: 35%;
+  border-radius: 20%;
+  padding: 10px 10px 10px 10px;
+  float: right;
 }
