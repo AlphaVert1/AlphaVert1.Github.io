@@ -181,7 +181,7 @@ textarea {
 html,
 body {
   font-family: Verdana, sans-serif;
-  font-size: 35px;
+  font-size: 2vw;
   line-height: 1.5;
 }
 html {
@@ -1108,7 +1108,7 @@ a {
   text-align: right !important;
 }
 .w3-justify {
-  text-align: justify !important;
+  text-align: center !important;
 }
 .w3-center {
   text-align: center !important;
@@ -1189,8 +1189,9 @@ a {
   padding-bottom: 48px !important;
 }
 .w3-padding-64 {
-  padding-top: 64px !important;
-  padding-bottom: 64px !important;
+ 
+  border-radius: 10px;
+  
 }
 .w3-padding-top-64 {
   padding-top: 64px !important;
@@ -1479,12 +1480,16 @@ a {
 .w3-text-gray,
 .w3-hover-text-gray:hover {
   color: black !important;
+  background: linear-Gradient(25deg, orange, beige)
 }
 .w3-text-light-grey,
 .w3-hover-text-light-grey:hover,
 .w3-text-light-gray,
 .w3-hover-text-light-gray:hover {
   color: orangered; !important;
+  background: #090000;  
+  padding: 2px 0px 2px 25px;
+
 }
 .w3-text-dark-grey,
 .w3-hover-text-dark-grey:hover,
@@ -1623,7 +1628,7 @@ a {
 
 .navbarz {
   padding: 0.5rem 1rem 0.5rem 1rem;
-  font-size: 0.5rem;
+  font-size: 1rem;
   font-family: "black ops one", cursive;
   text-align: center;
 }
@@ -1631,13 +1636,20 @@ a {
 .large-cont {
   color: rgb(207, 139, 12);
   background-color: black;
-  height: 50px;
-  width: 100%;
-  display: inlinel;
+  font-size: 2.2vw;
+  display: inline;
   margin: auto;
   position: relative;
   overflow: hidden;
   text-align: center;
   display: block;
   box-sizing: border-box;
+}
+
+.premoose{
+  padding: 5px 5px 5px 5px;
+}
+
+.primustwitter{
+  color: red;
 }
