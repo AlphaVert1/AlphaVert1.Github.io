@@ -7,9 +7,7 @@
 
 .gladpic {
   display: block;
-  width: 35%;
   border-radius: 20%;
-  padding: 10px 10px 10px 10px;
   float: left;
 }
 
@@ -38,9 +36,17 @@ input.bid {
 }
 
 .soap {
-  display: block;
-  width: 35%;
+  display: inline-block;
   border-radius: 20%;
+}
+
+img {
+  height: 35vh;
+  width: 25vw;
+  display: inline-block;
   padding: 10px 10px 10px 10px;
-  float: right;
+}
+
+section {
+  display: inline-block;
 }
