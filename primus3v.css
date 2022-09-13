@@ -1651,5 +1651,10 @@ a {
 }
 
 .primustwitter{
-  color: red;
+  color: orange;
+}
+
+.discordprimus{
+  height: 5px;
+  width: 5px;
 }
